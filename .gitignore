@@ -1,0 +1,40 @@
+# ==================================
+# Build & CMake Artifacts
+# ==================================
+# CMake build directory
+/build/
+/Build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+.cmake/
+
+# Executables and object files
+*.o
+*.obj
+*.exe
+bstree_main
+
+# ==================================
+# Editor/OS Specific
+# ==================================
+# VS Code
+.vscode/
+
+# IDE files (e.g., CLion, Xcode)
+.idea/
+*.xcodeproj/
+
+# Mac OS X
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ==================================
+# Application Output Files
+# ==================================
+# The file created by the searchMulKeys function
+output.txt
